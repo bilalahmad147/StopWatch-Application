@@ -28,7 +28,8 @@ function start() {
 }
 
 function stop() {
-    clearInterval(interval)
+    clearInterval(interval);
+    disable2();
 }
 function reset() {
     min = 0;
